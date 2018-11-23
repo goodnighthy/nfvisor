@@ -1,7 +1,7 @@
 cc = gcc
-prom = hello_world
-deps = $(shell find ./ -name "*.h")
-src = $(shell find ./ -name "*.c")
+prom = hello_world_uprobe
+deps = 
+src = hello_world_uprobe.c
 obj = $(src:%.c=%.o) 
 
 $(prom): $(obj)

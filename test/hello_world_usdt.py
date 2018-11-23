@@ -7,7 +7,7 @@ from bcc import BPF, USDT
 import sys
 
 if len(sys.argv) < 2:
-    print("USAGE: hellow_world PID")
+    print("USAGE: hellow_world_usdt PID")
     exit()
 pid = sys.argv[1]
 debug = 0
